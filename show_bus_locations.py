@@ -4,7 +4,7 @@ import urllib2
 import json
 import sys
 
-#take arguments
+#take arguments from c.l.
 if __name__ == '__main__': 
 	if len(sys.argv) != 3 :
 		sys.exit("This script takes exactly 2 arguments, no more, no less.")  

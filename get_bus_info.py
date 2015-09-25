@@ -3,7 +3,7 @@ import json
 import sys
 import csv
 
-#take arguments
+#take arguments from command line
 if __name__ == '__main__':    
 	if len(sys.argv) != 4 :
 		sys.exit("This script takes exactly 3 arguments, no more, no less.")
