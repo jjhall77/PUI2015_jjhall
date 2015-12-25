@@ -1,0 +1,57 @@
+your reviews were good 10/10
+
+NOTES ON YOUR PLOT
+===================
+
+tick and axis labels are too small
+
+the colors indicate the structure in the data nicely but the three shades are not distinguishable by people affected by the most common color blind variety
+
+in general the default 3 datapoints in the legend should be substitute with a single point, as they are redundant, but in this case since the datapoints are small to allow to see the overlapping structure (presumably) the three datapoints are justified. 
+
+10^0 should be replaced with 1, 10^1 with 10
+
+
+
+NOTES ON THE PLOTS YOU REVIEWED
+===========================================
+
+
+tvm237
+============
+
+the 3d is making the plot extremely hard to read. furthermore it is not needed since the third dimension is redundant with the color. the slope of the lines cannot be read clearly due to the perspective. 
+
+axis labels X,Y,Z should be changed to meaningful labels
+
+the orange label is very hard to read. 
+
+the points are larger than needed. in fact they are redundant with the line, though they may add readability to it they would be better smaller. 
+
+the horizontal grid is not needed as the value are categorical, and in fact it seem to be deformed in a way that i dont understand
+
+
+yl3250
+============
+
+
+the majority of the datapoints are in blue, but blue is not in the legend, thus i do not know what the majority if what is plotted is.
+
+the different size is not explained ( i think it is in the title but the syntax is not understandable. "Size = land area" should be a label somewhere).
+
+the tick labels are too small and the x notation (python default) should be changes to something more readable: for example plotting in units of 10^7 which is what python defaults to but including the 10^7 in the caption as "population size in units of 10 millions" or plotting in 10^6 as "population size (millions)"
+
+the plot should be in log scale so differences in the x axis away from 9 could be seen (since this must be the most important data in the plot seen as it is in different color)
+
+Ton-> Tons
+
+
+bsb342
+============
+the plot says color blind compliant, but really the color blind compliance is only important when multiple colors are present. 
+
+spaces are missing between words and parenthesis in both label and title
+
+the 3D is actually justified but the position of the points in the 3d space is hard to read. i think the transparency is attempting to make it more clear but it does not increase readability and the lack of legend makes it confusing to understand its meaning
+
+axis ticks are too small
