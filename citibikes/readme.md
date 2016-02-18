@@ -1,1 +1,0 @@
-I worked with M.Filippelli on this. We both went over several iterations of both the test of proportions and chisq tests and both spent a lot of time figuring out how to grab the citibike files from the web.
